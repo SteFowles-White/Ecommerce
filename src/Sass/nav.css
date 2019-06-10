@@ -1,0 +1,73 @@
+header {
+    background-color: black;
+    height: 80px;
+    margin: 0px !important;
+}
+
+header nav {
+    padding: 0px !important;
+
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+    margin-top: -25px;
+    margin-left: 5px;
+}
+
+#nav-menu li {
+    height: 10px;
+}
+#nav-menu li a {
+    color: white;
+}
+
+#basket {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    padding-top: 15px;
+    background-color: black;
+    border: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 0px !important;
+    height: 50px;
+    width: 60px;
+    text-align: center;
+}
+  
+
+#basket:hover {
+    background-color: grey;
+}
+
+#basket:active {
+    border-style: outset;
+    border: none;
+  }
+#bucketItems {
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    width: 300px;
+    list-style: none;
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: grey;
+    display: none;
+}
+
+#bucketItems li section:first-child{
+    width: 250px !important;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+}
+#bucketItems li section{
+    width: 50px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+}
